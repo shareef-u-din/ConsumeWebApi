@@ -1,0 +1,12 @@
+﻿body {
+}
+.ddlist {
+}
+.home-index-search{
+
+    border-bottom-right-radius:10px;
+    border-top-right-radius:10px;
+}
+div.home-index-form-group {
+    display: -webkit-inline-box;
+}
