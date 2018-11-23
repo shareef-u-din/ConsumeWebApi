@@ -45,7 +45,7 @@ namespace ConsumeWebApi.Helper
             using (var client=new HttpClient())
             {
                 client.BaseAddress = new Uri(url);
-                //HTTP Post
+                //HTTP  Post
                 client.DefaultRequestHeaders.Accept.Clear();
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
                 HttpResponseMessage httpResponseMessage = client.PostAsJsonAsync(url+controllerAndOrAction,passObject).Result;
